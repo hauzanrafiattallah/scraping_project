@@ -27,6 +27,13 @@ scrapping_project/
 │   ├── GOOGLE_MAPS_GUIDE.md # Panduan Google Maps
 │   └── QUICKSTART.py       # Quick start guide
 │
+├── analysis/               # 📊 Data analysis & visualization
+│   ├── notebooks/          # Jupyter notebooks
+│   ├── reports/            # Hasil analisis
+│   ├── visualizations/     # Grafik & charts
+│   ├── quick_analysis.py   # Quick analysis script
+│   └── README.md           # Analysis documentation
+│
 ├── main.py                 # Library imports reference
 └── .gitignore             # Git ignore rules
 ```
@@ -60,6 +67,19 @@ cat docs/README.md
 
 # Panduan Google Maps
 cat docs/GOOGLE_MAPS_GUIDE.md
+```
+
+### 4. Analisis Data (NEW! 📊)
+```bash
+# Quick analysis (tanpa Jupyter)
+python3 analysis/quick_analysis.py
+
+# Full EDA dengan Jupyter Notebook
+cd analysis/notebooks
+jupyter notebook eda_google_maps_cafe.ipynb
+
+# Install dependencies untuk analysis
+pip3 install -r analysis/requirements.txt
 ```
 
 ## 📊 Hasil Scraping Terbaru

@@ -1,0 +1,12 @@
+,category,rating_clean,district
+count,65,69.0,68
+unique,6,,14
+top,Kedai Kopi,,Kesambi
+freq,30,,23
+mean,,4.621739130434783,
+std,,0.1954403513768116,
+min,,4.1,
+25%,,4.5,
+50%,,4.6,
+75%,,4.7,
+max,,5.0,

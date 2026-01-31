@@ -49,3 +49,12 @@ chromedriver.log
 # Temporary files
 *.tmp
 *.temp
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Analysis outputs (optional - uncomment to ignore)
+# analysis/visualizations/*.png
+# analysis/reports/*.txt
