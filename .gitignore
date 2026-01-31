@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Selenium
+*.log
+geckodriver.log
+chromedriver.log
+
+# Output files (uncomment jika tidak ingin track hasil scraping)
+# output/**/*.json
+# output/**/*.csv
+# debug/**/*.png
+# debug/**/*.html
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment
+.env
+.venv
+
+# Temporary files
+*.tmp
+*.temp
